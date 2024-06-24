@@ -16,7 +16,7 @@ const Meetup = ({
   backgroundColor,
   dateFormat,
 }) => (
-  <div className="meetup-container">
+  <div className="meetup-container" id="{meetupInfo.id}">
     <StyledMeetup backgroundColor={backgroundColor}>
       <div className="meetup-name">
         <h2>{meetupInfo.name}</h2>
